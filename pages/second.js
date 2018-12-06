@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 export default () => (
 	<div>
-		<h1>👋 Hello from Nextjs </h1>
-		<Link href="/second">
-			<a>Second Page</a>
+		<h1>Second Page </h1>
+		<Link href="/index">
+			<a>Home Page</a>
 		</Link>
 	</div>
 );
